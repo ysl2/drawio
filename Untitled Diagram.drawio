@@ -1,1 +1,88 @@
-<mxfile host="app.diagrams.net" modified="2022-03-09T01:27:10.184Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" version="17.0.0" etag="-TAebfgkJlisP16dgrxS" type="github"><diagram id="4zMDZyTe87dljFcezHY3">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-09T14:04:26.503Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="iHa6O-GA3lLq_ywwfAAe" version="17.0.0" type="github">
+  <diagram id="4zMDZyTe87dljFcezHY3" name="Page-1">
+    <mxGraphModel dx="775" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="duTNipcsVGj32T_4z2ao-1" value="Linear Projection" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="400" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="duTNipcsVGj32T_4z2ao-2" value="Embedded Patches" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="460" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="duTNipcsVGj32T_4z2ao-3" value="Norm" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="520" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="duTNipcsVGj32T_4z2ao-4" value="Multi-Head Attention" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="590" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="duTNipcsVGj32T_4z2ao-6" value="Norm" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="720" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="duTNipcsVGj32T_4z2ao-7" value="MLP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="800" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="duTNipcsVGj32T_4z2ao-11" value="" style="endArrow=blockThin;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="359.6399999999999" y="760" as="sourcePoint" />
+            <mxPoint x="359.6400000000003" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="duTNipcsVGj32T_4z2ao-15" value="+" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="345" y="650" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="duTNipcsVGj32T_4z2ao-17" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="359.92" y="630" as="sourcePoint" />
+            <mxPoint x="359.92" y="650" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="359.92" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="duTNipcsVGj32T_4z2ao-18" value="" style="endArrow=blockThin;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="695" as="sourcePoint" />
+            <mxPoint x="360" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="duTNipcsVGj32T_4z2ao-21" value="" style="endArrow=blockThin;html=1;rounded=0;endFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="500" as="sourcePoint" />
+            <mxPoint x="360" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="duTNipcsVGj32T_4z2ao-22" value="" style="endArrow=blockThin;html=1;rounded=0;endFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="359.92" y="440" as="sourcePoint" />
+            <mxPoint x="359.92" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="duTNipcsVGj32T_4z2ao-24" value="" style="endArrow=blockThin;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endFill=1;" edge="1" parent="1" source="duTNipcsVGj32T_4z2ao-3" target="duTNipcsVGj32T_4z2ao-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="580" as="sourcePoint" />
+            <mxPoint x="410" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="duTNipcsVGj32T_4z2ao-25" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="570" as="sourcePoint" />
+            <mxPoint x="410" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="duTNipcsVGj32T_4z2ao-26" value="" style="endArrow=blockThin;html=1;rounded=0;endFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="570" as="sourcePoint" />
+            <mxPoint x="410" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="duTNipcsVGj32T_4z2ao-27" value="" style="endArrow=blockThin;html=1;rounded=0;endFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="570" as="sourcePoint" />
+            <mxPoint x="310" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
