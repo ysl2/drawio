@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-10T12:54:30.615Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="JKJ-sM8_n7_IiRyvOTlA" version="17.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-10T13:01:48.397Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="n3dbzii8tF-wu1l0Hxlk" version="17.0.0" type="github">
   <diagram id="4zMDZyTe87dljFcezHY3" name="Page-1">
-    <mxGraphModel dx="620" dy="349" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="none" math="1" shadow="0">
+    <mxGraphModel dx="335" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="none" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -449,7 +449,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XJ3LpIaOvpcaYn87Owpn-221" value="UnetrUpBlock" style="swimlane;fontColor=#1B0100;" vertex="1" parent="1">
-          <mxGeometry x="610" y="680" width="200" height="130" as="geometry" />
+          <mxGeometry x="610" y="680" width="200" height="150" as="geometry" />
         </mxCell>
         <mxCell id="XJ3LpIaOvpcaYn87Owpn-211" value="UnetResBlock &lt;br&gt;(downsample)" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;shadow=0;sketch=0;fontSize=11;horizontal=0;" vertex="1" parent="XJ3LpIaOvpcaYn87Owpn-221">
           <mxGeometry x="130" y="40" width="30" height="80" as="geometry" />
@@ -495,6 +495,15 @@
         </mxCell>
         <mxCell id="XJ3LpIaOvpcaYn87Owpn-229" value="skip" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontColor=#1B0100;" connectable="0" vertex="1" parent="XJ3LpIaOvpcaYn87Owpn-228">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XJ3LpIaOvpcaYn87Owpn-238" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontColor=#1B0100;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="XJ3LpIaOvpcaYn87Owpn-221">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="150" as="sourcePoint" />
+            <mxPoint x="100" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XJ3LpIaOvpcaYn87Owpn-239" value="&lt;font color=&quot;#ff9999&quot;&gt;输入输出方向需要修改&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#1B0100;" vertex="1" parent="XJ3LpIaOvpcaYn87Owpn-221">
+          <mxGeometry x="90" y="120" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XJ3LpIaOvpcaYn87Owpn-222" value="" style="endArrow=blockThin;html=1;rounded=0;fontColor=#1B0100;endFill=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
