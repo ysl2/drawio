@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-11T06:16:43.732Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="3adwl5bhaqVLhBCoZusS" version="17.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-11T06:17:06.395Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="zm-qQadVmtj9Zi0QnD91" version="17.1.0" type="github">
   <diagram id="4zMDZyTe87dljFcezHY3" name="Page-1">
     <mxGraphModel dx="1824" dy="982" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="none" math="1" shadow="0">
       <root>
@@ -938,9 +938,6 @@
             <mxPoint x="1500" y="1110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6h705Klhd8h0nTnU1Ru2-94" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;后续想尝试改动的点：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;1. 两个Transformer分别选不同的层引出来&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;2. 把前后的UnetrPrUpBlock也连接上&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="509.62" y="749.5" width="170" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="6h705Klhd8h0nTnU1Ru2-95" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1490" y="1310.19" as="sourcePoint" />
@@ -999,29 +996,6 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1380" y="879.18" as="sourcePoint" />
             <mxPoint x="1200" y="809.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="6h705Klhd8h0nTnU1Ru2-112" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="860" y="1350" as="sourcePoint" />
-            <mxPoint x="1310" y="1350" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="6h705Klhd8h0nTnU1Ru2-115" value="后续想改动的点" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6h705Klhd8h0nTnU1Ru2-112">
-          <mxGeometry x="-0.0516" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="6h705Klhd8h0nTnU1Ru2-113" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.496;entryY=1.044;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="XJ3LpIaOvpcaYn87Owpn-242">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="860" y="1350" as="sourcePoint" />
-            <mxPoint x="970" y="1380" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="6h705Klhd8h0nTnU1Ru2-114" value="" style="endArrow=blockThin;dashed=1;html=1;rounded=0;entryX=0;entryY=0;entryDx=60;entryDy=59.37;entryPerimeter=0;endFill=1;" edge="1" parent="1" target="XJ3LpIaOvpcaYn87Owpn-312">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1310" y="1350" as="sourcePoint" />
-            <mxPoint x="1320" y="1360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
