@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-12T03:27:10.061Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="NPQE4CaoOqltQgbxXniW" version="17.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-12T03:31:52.312Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="IZwMUO9R3UH19qzgW_e1" version="17.1.1" type="github">
   <diagram id="4zMDZyTe87dljFcezHY3" name="Page-1">
-    <mxGraphModel dx="886" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="none" math="1" shadow="0">
+    <mxGraphModel dx="1292" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="none" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -775,7 +775,7 @@
             <mxPoint x="1060" y="1011" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XJ3LpIaOvpcaYn87Owpn-367" value="" style="endArrow=none;html=1;rounded=0;fontColor=#1B0100;endFill=0;" parent="1" edge="1">
+        <mxCell id="XJ3LpIaOvpcaYn87Owpn-367" value="" style="endArrow=none;html=1;rounded=0;fontColor=#1B0100;endFill=0;startArrow=none;" parent="1" edge="1" source="4uYRzIEXRzIRVoLnlIDb-32">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1060" y="1011.38" as="sourcePoint" />
             <mxPoint x="1060" y="1291" as="targetPoint" />
@@ -1059,7 +1059,7 @@
           <mxGeometry x="820" y="1131.63" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4uYRzIEXRzIRVoLnlIDb-28" value="(\(&lt;br&gt;B \times 768 \times \frac{N}{16} \times \frac{N}{16} \times\frac{N}{16} \))" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="650" y="1280" width="160" height="30" as="geometry" />
+          <mxGeometry x="870" y="1280" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4uYRzIEXRzIRVoLnlIDb-29" value="\(N\) must can be devided by patch_size(\(16\)). e.g, \(N=96\)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="600" y="770" width="90" height="30" as="geometry" />
@@ -1069,6 +1069,24 @@
         </mxCell>
         <mxCell id="4uYRzIEXRzIRVoLnlIDb-31" value="Vision Transformer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="1145" y="912" width="125" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="4uYRzIEXRzIRVoLnlIDb-32" value="(\(B \times 128 \times \frac{N}{8} \times \frac{N}{8} \times \frac{N}{8}\))" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="980" y="1131.63" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4uYRzIEXRzIRVoLnlIDb-33" value="" style="endArrow=none;html=1;rounded=0;fontColor=#1B0100;endFill=0;" edge="1" parent="1" target="4uYRzIEXRzIRVoLnlIDb-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1060" y="1011.3799999999999" as="sourcePoint" />
+            <mxPoint x="1060" y="1291" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4uYRzIEXRzIRVoLnlIDb-34" value="(\(B \times 64 \times \frac{N}{4} \times \frac{N}{4} \times \frac{N}{4}\))" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="975" y="1070.5" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4uYRzIEXRzIRVoLnlIDb-35" value="(\(B \times 32 \times \frac{N}{2} \times \frac{N}{2} \times \frac{N}{2}\))" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="980" y="1001" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4uYRzIEXRzIRVoLnlIDb-36" value="&lt;font style=&quot;font-size: 12px&quot;&gt;(\(B \times \frac{N}{16} \times \frac{N}{16} \times\frac{N}{16} \times 768\))&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=5;" vertex="1" parent="1">
+          <mxGeometry x="590" y="1280" width="240" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
