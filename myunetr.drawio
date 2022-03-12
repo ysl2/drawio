@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-12T03:31:52.312Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="IZwMUO9R3UH19qzgW_e1" version="17.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-12T03:47:54.129Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="slU5177RwjGPlSgf-G1X" version="17.1.1" type="github">
   <diagram id="4zMDZyTe87dljFcezHY3" name="Page-1">
-    <mxGraphModel dx="1292" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="none" math="1" shadow="0">
+    <mxGraphModel dx="1069" dy="582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="none" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -938,7 +938,7 @@
             <mxPoint x="40" y="70.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6h705Klhd8h0nTnU1Ru2-92" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+        <mxCell id="6h705Klhd8h0nTnU1Ru2-92" value="" style="endArrow=none;html=1;rounded=0;startArrow=none;" parent="1" edge="1" source="4uYRzIEXRzIRVoLnlIDb-70">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1530" y="1290.25" as="sourcePoint" />
             <mxPoint x="1530" y="1050.25" as="targetPoint" />
@@ -1031,7 +1031,7 @@
         <mxCell id="4uYRzIEXRzIRVoLnlIDb-11" value="(\(B \times 1 \times N \times N \times N\))" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="570" y="809.25" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4uYRzIEXRzIRVoLnlIDb-14" value="Conv3d&lt;br&gt;n_channels=1,&lt;br&gt;out_channels=768,&lt;br&gt;kernel_size=patch_size=(16, 16, 16)&lt;br&gt;stride=(16, 16, 16)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=5;" vertex="1" parent="1">
+        <mxCell id="4uYRzIEXRzIRVoLnlIDb-14" value="Conv3d&lt;br&gt;in_channels=1,&lt;br&gt;out_channels=768,&lt;br&gt;kernel_size=patch_size=(16, 16, 16)&lt;br&gt;stride=(16, 16, 16)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=5;" vertex="1" parent="1">
           <mxGeometry x="790" y="951.75" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4uYRzIEXRzIRVoLnlIDb-15" value="in_channels=1,&lt;br&gt;out_channels=16,&lt;br&gt;kernel_size=(3, 3, 3),&lt;br&gt;stride=(1, 1, 1)&lt;br&gt;padding=(1, 1, 1)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=5;" vertex="1" parent="1">
@@ -1070,9 +1070,6 @@
         <mxCell id="4uYRzIEXRzIRVoLnlIDb-31" value="Vision Transformer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="1145" y="912" width="125" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="4uYRzIEXRzIRVoLnlIDb-32" value="(\(B \times 128 \times \frac{N}{8} \times \frac{N}{8} \times \frac{N}{8}\))" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="980" y="1131.63" width="160" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="4uYRzIEXRzIRVoLnlIDb-33" value="" style="endArrow=none;html=1;rounded=0;fontColor=#1B0100;endFill=0;" edge="1" parent="1" target="4uYRzIEXRzIRVoLnlIDb-32">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1060" y="1011.3799999999999" as="sourcePoint" />
@@ -1087,6 +1084,45 @@
         </mxCell>
         <mxCell id="4uYRzIEXRzIRVoLnlIDb-36" value="&lt;font style=&quot;font-size: 12px&quot;&gt;(\(B \times \frac{N}{16} \times \frac{N}{16} \times\frac{N}{16} \times 768\))&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=5;" vertex="1" parent="1">
           <mxGeometry x="590" y="1280" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4uYRzIEXRzIRVoLnlIDb-32" value="(\(B \times 128 \times \frac{N}{8} \times \frac{N}{8} \times \frac{N}{8}\))" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="980" y="1131.63" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4uYRzIEXRzIRVoLnlIDb-37" value="in_channels=16,&lt;br&gt;out_channels=2,&lt;br&gt;kernel_size=(1, 1, 1),&lt;br&gt;stride=(1, 1, 1)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=5;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="922" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4uYRzIEXRzIRVoLnlIDb-38" value="(\(B \times 2 \times 96 \times 96 \times 96\))" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="829.76" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4uYRzIEXRzIRVoLnlIDb-39" value="(\(B \times 3 \times 96 \times 96 \times 96\))" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="882" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4uYRzIEXRzIRVoLnlIDb-40" value="Conv3d&lt;br&gt;in_channels=3,&lt;br&gt;out_channels=768,&lt;br&gt;kernel_size=patch_size=(16, 16, 16)&lt;br&gt;stride=(16, 16, 16)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=5;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="950" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4uYRzIEXRzIRVoLnlIDb-65" value="(\(B \times 32 \times \frac{N}{2} \times \frac{N}{2} \times \frac{N}{2}\))" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="997.5699999999999" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4uYRzIEXRzIRVoLnlIDb-66" value="(\(B \times 64 \times \frac{N}{4} \times \frac{N}{4} \times \frac{N}{4}\))" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="1061.75" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4uYRzIEXRzIRVoLnlIDb-67" value="(\(B \times 128 \times \frac{N}{8} \times \frac{N}{8} \times \frac{N}{8}\))" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="1122.01" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4uYRzIEXRzIRVoLnlIDb-68" value="(\(B \times 32 \times \frac{N}{2} \times \frac{N}{2} \times \frac{N}{2}\))" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1445" y="997.57" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4uYRzIEXRzIRVoLnlIDb-69" value="(\(B \times 64 \times \frac{N}{4} \times \frac{N}{4} \times \frac{N}{4}\))" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1445" y="1061.75" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4uYRzIEXRzIRVoLnlIDb-70" value="(\(B \times 128 \times \frac{N}{8} \times \frac{N}{8} \times \frac{N}{8}\))" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="1121" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4uYRzIEXRzIRVoLnlIDb-71" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="4uYRzIEXRzIRVoLnlIDb-70">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1530" y="1290.25" as="sourcePoint" />
+            <mxPoint x="1530" y="1050.25" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
